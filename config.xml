@@ -6,8 +6,8 @@
 
     <name>First app</name>
     <description>My first mobile app</description>
-    <author href="http://mypersonalwebsite.com" email="johnbrown@gmail.com">
-		John Brown
+    <author href="http://facebook.com/olkastepien" email="stepien.aleksandra95@gmail.com">
+		Aleksandra Stępień
 	</author>
 	<platform name="android" />
 	
