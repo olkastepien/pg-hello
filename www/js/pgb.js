@@ -41,10 +41,7 @@ function net() {
     navigator.notification.alert('Connection type: ' + states[networkState]);
 }
 
-net();
-
-function init() {
-	document.addEventListener("deviceready",onDeviceReady, false);
+function card() {
 	
 	d =  'BUSINESS CARD' + '\n' +
 			'=====' + '\n' +
