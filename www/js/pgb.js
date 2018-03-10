@@ -41,6 +41,8 @@ function net() {
     navigator.notification.alert('Connection type: ' + states[networkState]);
 }
 
+net();
+
 function card() {
 	
 	d =  'BUSINESS CARD' + '\n' +
@@ -54,3 +56,16 @@ function card() {
 	navigator.notification.alert(d);
 	
 }
+
+function motion(acceleration) {
+    alert('Acceleration X: ' + acceleration.x + '\n' +
+          'Acceleration Y: ' + acceleration.y + '\n' +
+          'Acceleration Z: ' + acceleration.z + '\n' +
+          'Timestamp: '      + acceleration.timestamp + '\n');
+}
+
+function onError() {
+    alert('onError!');
+}
+
+document.getElementById("Accelerometer").addEventListener("click", navigator.accelerometer.getCurrentAcceleration(motion, onError));
