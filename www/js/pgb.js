@@ -22,5 +22,5 @@ function deviceInfo() {
 }
 
 function daneKon() {
-alert ("Aleksandra Stêpieñ");
+alert ("Aleksandra StÄ™pieÅ„");
 }
